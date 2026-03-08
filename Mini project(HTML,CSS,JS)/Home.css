@@ -1,0 +1,395 @@
+.animation-container1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation-box {
+  width: 100%;
+  height: auto;
+  background-color: #77d792;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  animation: bounce 2s infinite alternate; /* Apply animation */
+}
+
+@keyframes bounce {
+  0% {
+      transform: translateY(-50px);
+  }
+  100% {
+      transform: translateY(9px); /* Adjust bounce height */
+  }
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 0;
+}
+
+nav ul ul li {
+    display: block;
+}
+
+nav ul ul li a {
+    padding: 10px 20px;
+}
+
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+.topic1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(15, 64, 28);
+    text-align: center;
+}
+.title1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(32, 155, 42);
+    text-align: center;
+}
+.class1 {
+    font-size: 25px;
+    color:green;
+    text-align: center;
+}
+.phrase1{
+    font-size: 30px;
+    color: rgb(35, 91, 59);
+    text-align: center;
+}
+
+
+/*calculator page*/
+
+.class2{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(21, 234, 31);
+  text-align: center;
+}
+.div1{
+  width: auto;
+  height: auto;
+  border: 2px solid blue;
+  background-color: aquamarine;
+}
+
+.text{
+  font-size: 25px;
+  font-weight: lighter;
+}
+.animation-container {
+  width: 100%;
+  height:auto;
+  background-color:gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.class2 {
+  font-size: 40px;
+  color: #333;
+  animation: slide-in 2s ease-in-out infinite alternate;
+}
+
+@keyframes slide-in {
+  0% {
+      transform: translateX(-50%);
+  }
+  100% {
+      transform: translateX(50%);
+  }
+}
+
+
+/*calculator*/
+
+.calculator {
+  max-width: 600px;
+  margin-left: 400px; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(110, 241, 147);
+  
+  
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+ 
+ .subtopic{
+  font-weight:bold;
+  color: rgb(95, 56, 9);
+  font-size: 40px;
+ }
+
+ .list{
+  font-weight: bold;
+  color: rgb(16, 5, 67);
+  font-size: 30px;
+  margin-left: 10px;
+  margin-left: 100px;
+ }
+ .item{
+  font-size: 20px;
+  color: rgb(27, 88, 89);
+  margin-left: 100px;
+
+ }
+.body2{
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Water Pollution Page*/
+.water1{
+  width: auto;
+  height: auto;
+  border-radius: auto;
+  background-color: #345091;
+  display:inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 25px;
+  text-align: center;
+}
+
+.water2{
+  font-size: 40px;
+  color: rgb(54, 80, 9);
+}
+
+.water3{
+  font-size: 30px;
+  color: rgb(41, 64, 65);
+  margin-left:100px;
+}
+
+.water4{
+ 
+  color: #1c491e;
+  width: 1000px;
+  height: auto;
+  border-radius:50%;
+  background-color: #86c7e3;
+  align-items: center;
+  display:flex;
+  justify-content:center;
+  padding: 20px;
+  box-sizing:border-box;
+  font-size: 20px;
+  text-align: center;
+  border: 3px solid rgb(15, 4, 70);
+  margin-left: 200px;
+}
+
+.water5{
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+
+/*sound pollution*/
+.sound1{
+  text-align: center;
+  font-size: 40px;
+  color: #1c491e;
+
+}
+.sound2{
+  text-align: center;
+  font-size: 30px;
+ 
+}
+
+
+
+
+
+
+.sound3 {
+  border: 1px solid #090630;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  height:auto;
+  width: auto;
+  font-size: 30px;
+  background-color: #9aceb0;
+  margin-left: 200px;
+  margin-right: 200px;
+  
+  
+}
+
+.sound4 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+
+ }
+
+ .sound5 {
+  font-size: 30px;
+  font-style: initial;
+  color: #21372a;
+  padding: 10px;
+ }
+ 
+
+/*Recycle page*/
+
+.recycle1{
+  color: #090630;
+  font-size: 30px;
+  margin-left: 350px;
+
+}
+
+.recycle2{
+ 
+    background-color: #f9f9f9;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+    height: auto;
+    margin-left: 400px;
+    font-style: normal;
+    color: #007bff;
+    font-size: 25px;
+    
+  }
+.recycle3{
+  width: auto; 
+  padding: 20px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  position: relative; 
+}
+
+.chart{
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+
+}
+.recycle4{
+  color: #345091;
+  font-size: 30px;
+}
+.recycle5{
+    color: #121f3c;
+    font-size: 30px;
+  }
+.recycle6{
+  border: 2px solid rgb(80, 77, 219);
+
+}
+th,td{
+  border: 2px solid rgb(80, 77, 219);
+  padding: 8px;
+  text-align: left;
+  font-size: 20px;
+  background-color: rgb(237, 219, 198);
+}
+
+.recycle7{
+  font-size: 20px;
+  color: rgb(33, 41, 21);
+}
+
+/* About us page*/
+.about1{
+  color: #28542a;
+  text-align: center;
+}
+
+
+.about2{
+  color: rgb(15, 103, 74);
+  font-size: 25px;
+  text-align: center;
+}
+.about3{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Feedback page*/
+.feedback1{
+  text-align: center;
+  color: #21372a;
+}
+
+
+.c img{
+  margin-left: 600px;
+  
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Forum</title>
+    <link rel="stylesheet" type="text/css" href="Home.css">
+    <script src="Home.js"></script>
+    
+</head>
+<body>
+    <body class="body2">
+        <div class="animation-container">
+          <div class="class2"><h1><i>Feedback</i></h1></div>
+      </div>
+      <br><br>
+
+      <div id="app">
+        <h1 class="feedback1">Feedback Forum</h1>
+        <form @submit.prevent="addComment">
+            <textarea v-model="newComment" placeholder="Enter your comment"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div v-if="comments.length > 0">
+            <h2>Comments:</h2>
+            <ul>
+                <li v-for="(comment, index) in comments" :key="index">{{ comment }}</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                newComment: '',
+                comments: []
+            },
+            methods: {
+                addComment() {
+                    if (this.newComment.trim() !== '') {
+                        this.comments.push(this.newComment);
+                        this.newComment = '';
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html><br><br>
+
+<a href="Home.html">feedback Page</a>
